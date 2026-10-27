@@ -1,6 +1,6 @@
 cask "devcroft" do
-  version "0.2.0"
-  sha256 "d20aed04f543f8343b74aab274925876b7bd95fc35b4b45ac7dc99d01e14750d"
+  version "0.3.0"
+  sha256 "b6a955bc5df461c274f57ee887e8a2d0b0c0f5d9551450fc2929186f100fa2d4"
 
   url "https://github.com/hossainemruz/devcroft/releases/download/v#{version}/devcroft-v#{version}-aarch64-apple-darwin.tar.gz"
   name "Devcroft"
