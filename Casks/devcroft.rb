@@ -1,11 +1,11 @@
 cask "devcroft" do
-  version "0.3.0"
-  sha256 "b6a955bc5df461c274f57ee887e8a2d0b0c0f5d9551450fc2929186f100fa2d4"
+  version "0.4.0"
+  sha256 "5620cd4721ffc45890fdfceddf39bcda39875f4620993fa5e952b0355fd5fde4"
 
-  url "https://github.com/hossainemruz/devcroft/releases/download/v#{version}/devcroft-v#{version}-aarch64-apple-darwin.tar.gz"
+  url "https://github.com/croftkind/devcroft/releases/download/v#{version}/devcroft-v#{version}-aarch64-apple-darwin.tar.gz"
   name "Devcroft"
   desc "Desktop workspace for agent-assisted development"
-  homepage "https://github.com/hossainemruz/devcroft"
+  homepage "https://github.com/croftkind/devcroft"
 
   depends_on macos: :ventura
   depends_on arch: :arm64
